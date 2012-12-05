@@ -1,0 +1,9 @@
+<hr class="soften" />
+
+<p class="pull-right">
+	&copy; example.com 2012
+</p>
+<p>
+	Тел: <strong>(000) 123-46-78</strong>, <strong>(000) 123-45-67</strong>, email:
+	<a href="mailto:info@example.com">info@example.com</a>, skype: <a href="skype:example">example</a>
+</p>

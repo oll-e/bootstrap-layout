@@ -1,0 +1,38 @@
+{% extends 'master.page.twg' %}
+
+{% block content %}
+<h1>Началась распродажа!</h1>
+<p>
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tortor odio, porttitor
+	ac sodales sed, ultrices et enim. Quisque auctor, tortor vitae lobortis ornare,
+	nisi tortor consectetur lectus, id iaculis lectus nunc non nibh. Integer eu risus
+	vel nulla sollicitudin tincidunt. Pellentesque habitant morbi tristique senectus
+	et netus et malesuada fames ac turpis egestas. Proin leo mi, laoreet et aliquam
+	ut, ullamcorper at urna. Nulla laoreet, magna id mollis volutpat, ligula tellus
+	lobortis risus, ac iaculis orci sapien eu diam. Suspendisse rutrum ipsum vitae odio
+	lobortis non porttitor enim feugiat. Vestibulum id diam non ante pellentesque iaculis
+	vel in libero. Vivamus ultrices suscipit convallis. In ligula quam, condimentum
+	nec aliquam eget, scelerisque dignissim mi. Morbi mollis pellentesque libero, ut
+	pulvinar neque suscipit sit amet.
+</p>
+<p>
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tortor odio, porttitor
+	ac sodales sed, ultrices et enim. Quisque auctor, tortor vitae lobortis ornare,
+	nisi tortor consectetur lectus, id iaculis lectus nunc non nibh. Integer eu risus
+	vel nulla sollicitudin tincidunt. Pellentesque habitant morbi tristique senectus
+	et netus et malesuada fames ac turpis egestas. Proin leo mi, laoreet et aliquam
+	ut, ullamcorper at urna. Nulla laoreet, magna id mollis volutpat, ligula tellus
+	lobortis risus, ac iaculis orci sapien eu diam. Suspendisse rutrum ipsum vitae odio
+	lobortis non porttitor enim feugiat.
+</p>
+<p>
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tortor odio, porttitor
+	ac sodales sed, ultrices et enim. Quisque auctor, tortor vitae lobortis ornare,
+	nisi tortor consectetur lectus, id iaculis lectus nunc non nibh. Integer eu risus
+	vel nulla sollicitudin tincidunt. Pellentesque habitant morbi tristique senectus
+	et netus et malesuada fames ac turpis egestas. Proin leo mi, laoreet et aliquam
+	ut, ullamcorper at urna. Nulla laoreet, magna id mollis volutpat, ligula tellus
+	lobortis risus, ac iaculis orci sapien eu diam. Suspendisse rutrum ipsum vitae odio
+	lobortis non porttitor enim feugiat.
+</p>
+{% endblock content %}

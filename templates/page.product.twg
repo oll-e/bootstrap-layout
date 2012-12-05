@@ -1,0 +1,84 @@
+{% extends 'master.page.twg' %}
+
+{% block content %}
+<h1>Стиральная машина Samsung 105FD</h1>
+<div class="row item-info-area">
+	<div class="span4">
+		<ul class="thumbnails">
+			<li class="span4"><a href="#" class="thumbnail">
+				<img src="http://placehold.it/360x268" alt="">
+			</a></li>
+			<li class="span2"><a href="#" class="thumbnail">
+				<img src="http://placehold.it/130x85" alt="">
+			</a></li>
+			<li class="span2"><a href="#" class="thumbnail">
+				<img src="http://placehold.it/130x85" alt="">
+			</a></li>
+			<li class="span2"><a href="#" class="thumbnail">
+				<img src="http://placehold.it/130x85" alt="">
+			</a></li>
+			<li class="span2"><a href="#" class="thumbnail">
+				<img src="http://placehold.it/130x85" alt="">
+			</a></li>
+		</ul>
+	</div>
+	<div class="span5">
+		<p class="price">
+			10500 р.
+		</p>
+		<p>
+			<span class="item-status-ready">В наличии</span>
+		</p>
+		<p>
+			<a href="#" class="btn btn-primary btn-large">Купить</a>
+		</p>
+		<ul class="unstyled">
+			<li><strong>Артикул</strong>: HQ6K2Q123-59</li>
+			<li><strong>Производитель</strong>: <a href="#">Samsung</a></li>
+			<li><strong>Коллекция</strong>: <a href="#">Белая</a>, <a href="#">Новинка</a>, <a href="#">Лучший выбор</a></li>
+		</ul>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+			incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+			exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+			irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+			pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+			deserunt mollit anim id est laborum.
+		</p>
+		<table class="table table-bordered" style="margin-top: 22px;">
+			<tbody><tr>
+				<td>
+					Объем барабана
+				</td>
+				<td>
+					5 кг
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Отжим
+				</td>
+				<td>
+					1000 об
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Глубина
+				</td>
+				<td>
+					40 см
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Класс энергопотребления
+				</td>
+				<td>
+					X
+				</td>
+			</tr>
+		</tbody></table>
+	</div>
+</div>
+{% endblock content %}

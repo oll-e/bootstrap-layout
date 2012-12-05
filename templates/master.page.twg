@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Layout - Bootstrap Layout</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+		
+		
+		<link href="assets/css/vendor/bootstrap.css" rel="stylesheet" type="text/css" />
+		{% block css %}
+			<link href="/index.php?file=main.less" rel="stylesheet" type="text/css" />
+		{% endblock css %}
+
+        <script src="/assets/js/vendor/modernizr-2.6.2.min.js"></script>
+		<script type="text/javascript" src="/assets/js/vendor/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="/assets/js/vendor/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="/assets/js/vendor/bootstrap.js"></script>
+		<script type="text/javascript" src="/assets/js/vendor/simpleCart.js"></script>
+
+		<script type="text/javascript" src="/assets/js/plugins.js"></script>
+		<script type="text/javascript" src="/assets/js/main.js"></script>
+		<script type="text/javascript">
+			$(function () {
+				$('.dropdown-toggle').dropdown();
+				
+				  simpleCart.currency({ 
+					code: "HRV" ,
+					name: "гривня" ,
+					symbol: "₴" 
+				});
+				
+				
+	$(".simpleCart_shelfItem").delay(500).animateStep({css:{top:'0px'},delay:100,speed:100});
+	$(".simpleCart_shelfItem").click(function(){
+		$(".intro").css('overflow','visible');
+		var item = $(this),
+			clone = item.clone(),
+			cart = $('.cart'),
+			position = item.offset(),
+			cartPosition = cart.position(),
+			bezier_params = {
+		    start: { 
+		      x: position.left, 
+		      y: position.top, 
+		      angle: -90
+		    },  
+		    end: { 
+		      x:cartPosition.left,
+		      y:cartPosition.top - (item.height() - cart.height()) / 2, 
+		      angle: 180, 
+		      length: .2
+		    }
+		  };
+
+		clone.appendTo($('body'))
+			 .animate({path : new $.path.bezier(bezier_params)}, 600)
+			 .addClass('addDemoAnimation');
+		
+	});
+				
+				simpleCart({
+					//Setting the Cart Columns for the sidebar cart display.
+					cartColumns: [
+						//A custom cart column for putting the quantity and increment and decrement items in one div for easier styling.
+						{ view: function(item, column){
+							return	"<span>"+item.get('quantity')+"</span>" + 
+									"<div>" +
+										"<a href='javascript:;' class='simpleCart_increment'><img src='/assets/images/increment.png' title='+1' alt='arrow up'/></a>" +
+										"<a href='javascript:;' class='simpleCart_decrement'><img src='/assets/images/decrement.png' title='-1' alt='arrow down'/></a>" +
+									"</div>";
+						}, attr: 'custom' },
+						//Name of the item
+						{ attr: "name" , label: false },
+						//Subtotal of that row (quantity of that item * the price)
+						{ view: 'currency', attr: "total" , label: false  }
+					],
+					cartStyle: 'div',
+					currency: "HRV",
+					checkout: { 
+						type: "SendForm" , 
+						url: "/checkout/url" ,
+					// http method for form, "POST" or "GET", default is "POST"
+					method: "GET" , 
+					// url to return to on successful checkout, default is null
+					success: "success.html" , 
+					// url to return to on cancelled checkout, default is null
+					cancel: "cancel.html" ,
+					// an option list of extra name/value pairs that can
+					// be sent along with the checkout data
+					extra_data: {
+					  storename: "Bob's cool plumbing store",
+					  cartid: "12321321"
+					}
+					} 
+				});
+			});
+		</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+		<div class="container">
+			<header>
+			{% block header %}
+				{% include 'partials/header.twg' %}
+			{% endblock header %}
+			</header>
+			<div class="row">
+				<aside class="span3">
+				{% block sidebar %}
+					{% include 'partials/sidebar.twg' %}
+				{% endblock sidebar %}
+				</aside>
+				<section class="span9">
+				{% block content %}
+				
+				{% endblock content %}
+				</section>
+			</div>
+			<footer>
+			{% block footer %}
+				{% include 'partials/footer.twg' %}
+			{% endblock footer %}
+			</footer>
+		</div>
+		<!--[if lt IE 9]>
+			<script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</body>
+</html>

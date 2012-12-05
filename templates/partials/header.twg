@@ -1,0 +1,48 @@
+<div class="row common-header">
+	<div class="span4 logo">
+		<span class="logo1">Ваш</span> <span class="logo2">магазин</span>
+	</div>
+	<div class="span8 ">
+		<div class="cart">
+			<a href="/index.php?file=page.cart.twg"><span class="pict">i</span> Корзина</a><br />
+			<span class="content"><span class="simpleCart_quantity"></span> товаров на сумму: <span class="simpleCart_total"></span></span>
+		</div>
+		<div class="phones">
+			+380 123 45 67<br />
+			+380 123 45 67
+		</div>
+	</div>
+</div>
+
+<div class="navbar">
+	<div class="navbar-inner">
+		<div class="container" style="width: auto;">
+			<nav class="nav">
+				<li class="active"><a href="/">Home page</a></li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li><a href="/index.php?file=page.default.twg">Typography</a></li>
+						<li><a href="/index.php?file=page.product.twg">Product</a></li>
+						<li><a href="/index.php?file=page.cart.twg">Cart</a></li>
+						<li><a href="/index.php?file=page.newsitem.twg">Article</a></li>
+                        <li class="divider"></li>
+						<li><a href="/index.php?file=page.404.twg">404 Page not found</a></li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Examples <b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li><a href="/index.php?file=examples/icons.twg">Icons</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Контакты</a></li>
+			</nav>
+
+			<form class="navbar-form pull-right">
+				<input type="text" class="search-query" placeholder="Введите текст для поиска">
+				<a href="/index.php?file=page.search.twg" class="search-btn btn font-modernpictograms">s</a>
+			</form>
+		</div>
+	</div>
+</div>
