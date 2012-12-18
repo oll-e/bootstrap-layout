@@ -1,0 +1,93 @@
+{% extends 'master.page.twg' %}
+
+{% block content %}
+
+<h1>Стиральные машины</h1>
+
+<div class="pagination">
+	<ul>
+		<li class="disabled"><a href="#">«</a></li>
+		<li class="active"><a href="#">1</a> </li>
+		<li><a href="#">2</a></li>
+		<li><a href="#">3</a></li>
+		<li><a href="#">4</a></li>
+		<li><a href="#">»</a></li>
+	</ul>
+	<ul class="pull-right h-navigation">
+		<li class="disabled"><a href="#">на странице:</a></li>
+		<li class="dropdown">
+			<a data-toggle="dropdown" class="dropdown-toggle">20 <span class="caret"></span></a>
+			<ul class="dropdown-menu pull-right">
+				<li><a href="#">50</a></li>
+				<li><a href="#">100</a></li>
+				<li><a href="#">Все</a></li>
+			</ul>
+		</li>
+		<li class="disabled"><a href="#">сортировать:</a></li>
+		<li class="dropdown">
+			<a data-toggle="dropdown" class="dropdown-toggle">по алфавиту <span class="caret"></span></a>
+			<ul class="dropdown-menu pull-right">
+				<li><a href="#">по цене</a></li>
+				<li><a href="#">по популярности</a></li>
+			</ul>
+		</li>
+	</ul>
+</div>
+<div class="clearfix"></div>
+
+<ul class="thumbnails item-list-area b-product-descr">
+{% for i in 0..10 %}
+	<li class="simpleCart_shelfItem">
+		<a href="/index.php?file=page.product.twg" class="span4 thumbnail">
+			<img src="http://placehold.it/260x140" alt="">
+		</a>
+		<div class="span7 b-description">
+            <p>
+                <a class="item_name" href="/index.php?file=page.product.twg">Стиральная машина полногабаритная BOSCH WAQ 24441 OE</a>
+                <span class="muted">Код 249336</span>
+            </p>
+            <p>
+                Стиральная машина с фронтальной загрузкой. Максимальная загрузка: 8 кг. Количество оборотов: 1200 об/мин. Класс эффективности энергопотребления/стирки/отжима: A/A/В. Большой светодиодный дисплей. Технология VarioPerfect. Габариты (ВхШхГ): 84,8х59,8х59 см. Цвет корпуса: белый.
+                <a class="item_name" href="/index.php?file=page.product.twg">Подробнее →</a>
+            </p>
+            <p>
+                <span class="price item_price text-success"><b>100500 р. </b></span><a class="btn item_add">В корзину</a>
+            </p>
+        </div>
+	</li>
+{% endfor %}
+</ul>
+
+<div class="pagination">
+	<ul>
+		<li class="disabled"><a href="#">«</a></li>
+		<li class="active"><a href="#">1</a> </li>
+		<li><a href="#">2</a></li>
+		<li><a href="#">3</a></li>
+		<li><a href="#">4</a></li>
+		<li><a href="#">»</a></li>
+	</ul>
+	<ul class="pull-right h-navigation">
+		<li class="disabled"><a href="#">на странице:</a></li>
+		<li class="dropdown">
+			<a class="dropdown-toggle" data-toggle="dropdown">20 <span class="caret"></span></a>
+			<ul class="dropdown-menu pull-right">
+				<li><a href="#">50</a></li>
+				<li><a href="#">100</a></li>
+				<li><a href="#">Все</a></li>
+			</ul>
+		</li>
+		<li class="disabled"><a href="#">сортировать:</a></li>
+		<li class="dropdown">
+			<a class="dropdown-toggle" data-toggle="dropdown">по алфавиту <span class="caret"></span></a>
+			<ul class="dropdown-menu pull-right">
+				<li><a href="#">по цене</a></li>
+				<li><a href="#">по популярности</a></li>
+			</ul>
+		</li>
+	</ul>
+</div>
+<div class="clearfix"></div>
+
+
+{% endblock content %}

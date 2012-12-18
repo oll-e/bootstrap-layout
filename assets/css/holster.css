@@ -1,0 +1,11 @@
+.h-search-bottom {
+    display: block;
+    height: 5px;
+    width: 100%;
+}
+.pagination .h-navigation {
+    margin-bottom: 5px;
+}
+.checkout .h-btn-bottom {
+    margin-bottom: 10px;
+}

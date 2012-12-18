@@ -14,60 +14,60 @@
 	<thead>
 		<tr>
 			<th>
-				Название
+				&nbsp;
 			</th>
 			<th>
-				Цена
+				Товар
 			</th>
 			<th>
 				Кол-во
 			</th>
 			<th>
-				&nbsp;
+				Сумма
 			</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
+            <td>
+				<a href="#"><span class="pict pict-remove">X</span></a>
+			</td>
 			<td>
 				<a href="/index.php?file=page.product.twg">Стиральная машина Samsung 105FD</a>
 			</td>
 			<td>
+				<input class="span3" value="1">
+			</td>
+			<td>
 				10500
-			</td>
-			<td>
-				<input class="span1" value="1">
-			</td>
-			<td>
-				<a href="#"><span class="pict pict-remove">X</span> Удалить</a>
 			</td>
 		</tr>
 		<tr>
+			<td>
+				<a href="#"><span class="pict pict-remove">X</span></a>
+			</td>
 			<td>
 				<a href="/index.php?file=page.product.twg">Кофеварка Electrolux</a>
 			</td>
 			<td>
+				<input class="span3" value="1">
+			</td>
+			<td>
 				3500
-			</td>
-			<td>
-				<input class="span1" value="1">
-			</td>
-			<td>
-				<a href="#"><span class="pict pict-remove">X</span> Удалить</a>
 			</td>
 		</tr>
 		<tr>
 			<td>
+				<a href="#"><span class="pict pict-remove">X</span></a>
+			</td>
+			<td>
 				<a href="/index.php?file=page.product.twg">Набор фильтров 4, 100 шт.</a>
 			</td>
 			<td>
+				<input class="span3" value="1">
+			</td>
+			<td>
 				200
-			</td>
-			<td>
-				<input class="span1" value="1">
-			</td>
-			<td>
-				<a href="#"><span class="pict pict-remove">X</span> Удалить</a>
 			</td>
 		</tr>
 	</tbody>
@@ -75,13 +75,14 @@
 <p class="right-aligned">
 	Общая стоимость заказа: 14200
 </p>
-<div class="right-aligned">
-	<a class="btn btn-primary">Пересчитать сумму заказа</a>
+<div class="checkout right-aligned">
+	<a class="btn btn-primary h-btn-bottom">Пересчитать сумму заказа</a>
 	<a class="btn">Очистить корзину</a>
 </div>
-<h2>
-	Оформить заказ</h2>
-<div class="form-horizontal span8">
+<div class="clearfix"></div>
+
+<h2>Оформить заказ</h2>
+<div class="form-horizontal">
 	<div class="control-group">
 		<label class="control-label" for="input01">
 			Фамилия, Имя</label>
@@ -93,14 +94,14 @@
 		<label class="control-label" for="input02">
 			Телефон</label>
 		<div class="controls">
-			<input type="text" class="span2" id="input02">
+			<input type="text" class="input-xlarge" id="input02">
 		</div>
 	</div>
 	<div class="control-group">
 		<label class="control-label" for="input03">
 			E-mail</label>
 		<div class="controls">
-			<input type="text" class="span2" id="input03">
+			<input type="text" class="input-xlarge" id="input03">
 			<p class="help-block">
 				Мы отправим на Ваш e-mail информацию о заказе. Также мы свяжемся с Вами по этому
 				адресу, если Вы не укажете номер телефона.

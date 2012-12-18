@@ -1,1 +1,1 @@
-D:\esvit\php\php.exe -S localhost:8080 -t .
+D:\php\php.exe -S localhost:8080 -t .

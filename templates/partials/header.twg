@@ -1,48 +1,72 @@
 <div class="row common-header">
-	<div class="span4 logo">
-		<span class="logo1">Ваш</span> <span class="logo2">магазин</span>
-	</div>
-	<div class="span8 ">
-		<div class="cart">
-			<a href="/index.php?file=page.cart.twg"><span class="pict">i</span> Корзина</a><br />
-			<span class="content"><span class="simpleCart_quantity"></span> товаров на сумму: <span class="simpleCart_total"></span></span>
-		</div>
-		<div class="phones">
-			+380 123 45 67<br />
-			+380 123 45 67
-		</div>
-	</div>
+    <div class="span4 logo">
+        <a href="#"><img src="http://equalteam.net/images/logo.png" style="height: 50px;"></a>
+    </div>
+    
+    <div class="span6 pull-right">
+        <div class="cart">
+            <a href="/index.php?file=page.cart.twg"><span class="pict">i</span> Корзина</a><br />
+            <span class="content"><span class="simpleCart_quantity"></span> товаров на сумму: <span class="simpleCart_total"></span></span>
+        </div>
+        <div class="phones">
+            +380 123 45 67<br />
+            +380 123 45 67
+        </div>
+    </div>
+
 </div>
+            
+<div class="navbar"><!--navbar-fixed-top-->
+    <div class="navbar-inner">
+    
+        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </a><!--if < menu-->
 
-<div class="navbar">
-	<div class="navbar-inner">
-		<div class="container" style="width: auto;">
-			<nav class="nav">
-				<li class="active"><a href="/">Home page</a></li>
-				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>
-					<ul class="dropdown-menu">
-						<li><a href="/index.php?file=page.default.twg">Typography</a></li>
-						<li><a href="/index.php?file=page.product.twg">Product</a></li>
-						<li><a href="/index.php?file=page.cart.twg">Cart</a></li>
-						<li><a href="/index.php?file=page.newsitem.twg">Article</a></li>
+        <div class="btn-group pull-right">
+            <a class="btn" data-toggle="dropdown" href="#">
+                <span class="pict black">f</span>  Username <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+                <li><a href="#">Profile</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Sign Out</a></li>
+            </ul>
+        </div>
+        
+        <form class="navbar-form pull-right h-search-right">
+            <input type="text" class="search-query" placeholder="Введите текст для поиска">
+            <a href="/index.php?file=page.search.twg" class="search-btn btn font-modernpictograms">s</a>
+            <div class="h-search-bottom"></div>
+        </form>
+        
+        <div class="nav-collapse">
+            <ul class="nav">
+                <li class="active"><a href="/">Home page</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/index.php?file=page.default.twg">Typography</a></li>
+                        <li><a href="/index.php?file=page.procategory.twg">Products Category</a></li>
+                        <li><a href="/index.php?file=page.products.twg">Product</a></li>
+						<li><a href="/index.php?file=page.gallery.twg">Gallery</a></li>
+                        <li><a href="/index.php?file=page.cart.twg">Cart</a></li>
+                        <li><a href="/index.php?file=page.newsitem.twg">Article</a></li>
                         <li class="divider"></li>
-						<li><a href="/index.php?file=page.404.twg">404 Page not found</a></li>
-					</ul>
-				</li>
-				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Examples <b class="caret"></b></a>
-					<ul class="dropdown-menu">
-						<li><a href="/index.php?file=examples/icons.twg">Icons</a></li>
-					</ul>
-				</li>
-				<li><a href="#">Контакты</a></li>
-			</nav>
+                        <li><a href="/index.php?file=page.404.twg">404 Page not found</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Examples <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/index.php?file=examples/icons.twg">Icons</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
 
-			<form class="navbar-form pull-right">
-				<input type="text" class="search-query" placeholder="Введите текст для поиска">
-				<a href="/index.php?file=page.search.twg" class="search-btn btn font-modernpictograms">s</a>
-			</form>
-		</div>
-	</div>
+    </div>
 </div>

@@ -9,11 +9,15 @@
         <title>Layout - Bootstrap Layout</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
-
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 		
-		
+		<link rel="stylesheet" type="text/css" href="assets/css/gallery/style.css"/>
+        <script src="assets/js/gallery/modernizr.custom.70736.js"></script>
+        <noscript><link rel="stylesheet" type="text/css" href="assets/css/gallery/noJS.css"/></noscript>
+        <!--[if lte IE 7]><style>.main{display:none;} .support-note .note-ie{display:block;}</style><![endif]-->
+        
+        <link href="assets/css/holster.css" rel="stylesheet" type="text/css" />
 		<link href="assets/css/vendor/bootstrap.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/vendor/bootstrap-responsive.css" rel="stylesheet" type="text/css" />
 		{% block css %}
 			<link href="/index.php?file=main.less" rel="stylesheet" type="text/css" />
 		{% endblock css %}
@@ -24,46 +28,55 @@
 		<script type="text/javascript" src="/assets/js/vendor/bootstrap.js"></script>
 		<script type="text/javascript" src="/assets/js/vendor/simpleCart.js"></script>
 
+        <!--Gamma Gallery-->
+        <script src="assets/js/gallery/modernizr.custom.70736.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <script src="assets/js/gallery/jquery.masonry.min.js"></script>
+        <script src="assets/js/gallery/jquery.history.js"></script>
+        <script src="assets/js/gallery/js-url.min.js"></script>
+        <script src="assets/js/gallery/jquerypp.custom.js"></script>
+        <script src="assets/js/gallery/gamma.js"></script>
+        <!--Gamma Gallery-->
+        
 		<script type="text/javascript" src="/assets/js/plugins.js"></script>
 		<script type="text/javascript" src="/assets/js/main.js"></script>
 		<script type="text/javascript">
 			$(function () {
-				$('.dropdown-toggle').dropdown();
 				
-				  simpleCart.currency({ 
+				simpleCart.currency({ 
 					code: "HRV" ,
 					name: "гривня" ,
 					symbol: "₴" 
 				});
 				
 				
-	$(".simpleCart_shelfItem").delay(500).animateStep({css:{top:'0px'},delay:100,speed:100});
-	$(".simpleCart_shelfItem").click(function(){
-		$(".intro").css('overflow','visible');
-		var item = $(this),
-			clone = item.clone(),
-			cart = $('.cart'),
-			position = item.offset(),
-			cartPosition = cart.position(),
-			bezier_params = {
-		    start: { 
-		      x: position.left, 
-		      y: position.top, 
-		      angle: -90
-		    },  
-		    end: { 
-		      x:cartPosition.left,
-		      y:cartPosition.top - (item.height() - cart.height()) / 2, 
-		      angle: 180, 
-		      length: .2
-		    }
-		  };
+                $(".simpleCart_shelfItem").delay(500).animateStep({css:{top:'0px'},delay:100,speed:100});
+                $(".simpleCart_shelfItem").click(function(){
+                    $(".intro").css('overflow','visible');
+                    var item = $(this),
+                        clone = item.clone(),
+                        cart = $('.cart'),
+                        position = item.offset(),
+                        cartPosition = cart.position(),
+                        bezier_params = {
+                        start: { 
+                          x: position.left, 
+                          y: position.top, 
+                          angle: -90
+                        },  
+                        end: { 
+                          x:cartPosition.left,
+                          y:cartPosition.top - (item.height() - cart.height()) / 2, 
+                          angle: 180, 
+                          length: .2
+                        }
+                      };
 
-		clone.appendTo($('body'))
-			 .animate({path : new $.path.bezier(bezier_params)}, 600)
-			 .addClass('addDemoAnimation');
-		
-	});
+                    clone.appendTo($('body'))
+                         .animate({path : new $.path.bezier(bezier_params)}, 600)
+                         .addClass('addDemoAnimation');
+                    
+                });
 				
 				simpleCart({
 					//Setting the Cart Columns for the sidebar cart display.
@@ -100,6 +113,56 @@
 					}
 					} 
 				});
+                
+                var GammaSettings = {
+						// order is important!
+						viewport : [ {
+							width : 1200,
+							columns : 5
+						}, {
+							width : 900,
+							columns : 4
+						}, {
+							width : 500,
+							columns : 3
+						}, { 
+							width : 320,
+							columns : 2
+						}, { 
+							width : 0,
+							columns : 2
+						} ]
+				};
+
+				Gamma.init( GammaSettings, fncallback );
+
+
+				// Example how to add more items (just a dummy):
+
+				var page = 0,
+					items = ['<li><div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350"><div data-src="images/xxxlarge/3.jpg" data-min-width="1300"></div><div data-src="images/xxlarge/3.jpg" data-min-width="1000"></div><div data-src="images/xlarge/3.jpg" data-min-width="700"></div><div data-src="images/large/3.jpg" data-min-width="300"></div><div data-src="images/medium/3.jpg" data-min-width="200"></div><div data-src="images/small/3.jpg" data-min-width="140"></div><div data-src="images/xsmall/3.jpg"></div><noscript><img src="images/xsmall/3.jpg" alt="img03"/></noscript></div></li><li><div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350"><div data-src="images/xxxlarge/3.jpg" data-min-width="1300"></div><div data-src="images/xxlarge/3.jpg" data-min-width="1000"></div><div data-src="images/xlarge/3.jpg" data-min-width="700"></div><div data-src="images/large/3.jpg" data-min-width="300"></div><div data-src="images/medium/3.jpg" data-min-width="200"></div><div data-src="images/small/3.jpg" data-min-width="140"></div><div data-src="images/xsmall/3.jpg"></div><noscript><img src="images/xsmall/3.jpg" alt="img03"/></noscript></div></li><li><div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350"><div data-src="images/xxxlarge/3.jpg" data-min-width="1300"></div><div data-src="images/xxlarge/3.jpg" data-min-width="1000"></div><div data-src="images/xlarge/3.jpg" data-min-width="700"></div><div data-src="images/large/3.jpg" data-min-width="300"></div><div data-src="images/medium/3.jpg" data-min-width="200"></div><div data-src="images/small/3.jpg" data-min-width="140"></div><div data-src="images/xsmall/3.jpg"></div><noscript><img src="images/xsmall/3.jpg" alt="img03"/></noscript></div></li><li><div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350"><div data-src="images/xxxlarge/3.jpg" data-min-width="1300"></div><div data-src="images/xxlarge/3.jpg" data-min-width="1000"></div><div data-src="images/xlarge/3.jpg" data-min-width="700"></div><div data-src="images/large/3.jpg" data-min-width="300"></div><div data-src="images/medium/3.jpg" data-min-width="200"></div><div data-src="images/small/3.jpg" data-min-width="140"></div><div data-src="images/xsmall/3.jpg"></div><noscript><img src="images/xsmall/3.jpg" alt="img03"/></noscript></div></li><li><div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350"><div data-src="images/xxxlarge/3.jpg" data-min-width="1300"></div><div data-src="images/xxlarge/3.jpg" data-min-width="1000"></div><div data-src="images/xlarge/3.jpg" data-min-width="700"></div><div data-src="images/large/3.jpg" data-min-width="300"></div><div data-src="images/medium/3.jpg" data-min-width="200"></div><div data-src="images/small/3.jpg" data-min-width="140"></div><div data-src="images/xsmall/3.jpg"></div><noscript><img src="images/xsmall/3.jpg" alt="img03"/></noscript></div></li>']
+
+				function fncallback() {
+
+					$( '#loadmore' ).show().on( 'click', function() {
+
+						++page;
+						var newitems = items[page-1]
+						if( page <= 1 ) {
+							
+							Gamma.add( $( newitems ) );
+
+						}
+						if( page === 1 ) {
+
+							$( this ).remove();
+
+						}
+
+					} );
+
+				}
+                
 			});
 		</script>
     </head>
@@ -107,31 +170,36 @@
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
+    <div class="container">
+    
+        {% block header %}
+            {% include 'partials/header.twg' %}
+        {% endblock header %}
+        
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span3">
+                    {% block sidebar %}
+                        {% include 'partials/sidebar.twg' %}
+                    {% endblock sidebar %}
+                </div><!--/span3 aside-->
+            
+                <div class="span9">
+                    {% block content %}
 
-		<div class="container">
-			<header>
-			{% block header %}
-				{% include 'partials/header.twg' %}
-			{% endblock header %}
-			</header>
-			<div class="row">
-				<aside class="span3">
-				{% block sidebar %}
-					{% include 'partials/sidebar.twg' %}
-				{% endblock sidebar %}
-				</aside>
-				<section class="span9">
-				{% block content %}
-				
-				{% endblock content %}
-				</section>
-			</div>
-			<footer>
-			{% block footer %}
-				{% include 'partials/footer.twg' %}
-			{% endblock footer %}
-			</footer>
-		</div>
+                    {% endblock content %}
+                </div><!--/span9 main-content-->
+            </div><!--/row-->
+            
+            <hr>
+            
+            <footer>
+            {% block footer %}
+            {% include 'partials/footer.twg' %}
+            {% endblock footer %}
+            </footer>
+        </div>
+    </div>    
 		<!--[if lt IE 9]>
 			<script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->

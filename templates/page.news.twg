@@ -1,0 +1,121 @@
+{% extends 'master.page.twg' %}
+
+{% block content %}
+<h1>Новости</h1>
+
+<div class="pagination">
+	<ul>
+		<li class="disabled"><a href="#">«</a></li>
+		<li class="active"><a href="#">1</a> </li>
+		<li><a href="#">2</a></li>
+		<li><a href="#">3</a></li>
+		<li><a href="#">4</a></li>
+		<li><a href="#">»</a></li>
+	</ul>
+	<ul class="pull-right">
+		<li class="disabled"><a href="#">на странице:</a></li>
+		<li class="dropdown">
+			<a data-toggle="dropdown" class="dropdown-toggle">20 <span class="caret"></span></a>
+			<ul class="dropdown-menu pull-right">
+				<li><a href="#">50</a></li>
+				<li><a href="#">100</a></li>
+				<li><a href="#">Все</a></li>
+			</ul>
+		</li>
+		<li class="disabled"><a href="#">сортировать:</a></li>
+		<li class="dropdown">
+			<a data-toggle="dropdown" class="dropdown-toggle">по алфавиту <span class="caret"></span></a>
+			<ul class="dropdown-menu pull-right">
+				<li><a href="#">по цене</a></li>
+				<li><a href="#">по популярности</a></li>
+			</ul>
+		</li>
+	</ul>
+</div>
+
+<div class="short-news">
+    <h4>Новая коллекция</h4>
+    <p>
+        Donec dictum augue imperdiet erat feugiat vitae hendrerit erat eleifend. Quisque
+        fringilla, lacus et ullamcorper laoreet, lorem metus eleifend arcu, eu placerat
+        felis dolor et risus.
+    </p>
+    <a href="/index.php?file=page.newsitem.twg">Подробнее...</a>
+</div>
+<div class="short-news">
+    <h4>Новая коллекция</h4>
+    <p>
+        Donec dictum augue imperdiet erat feugiat vitae hendrerit erat eleifend. Quisque
+        fringilla, lacus et ullamcorper laoreet, lorem metus eleifend arcu, eu placerat
+        felis dolor et risus.
+    </p>
+    <a href="/index.php?file=page.newsitem.twg">Подробнее...</a>
+</div>
+<div class="short-news">
+    <h4>Новая коллекция</h4>
+    <p>
+        Donec dictum augue imperdiet erat feugiat vitae hendrerit erat eleifend. Quisque
+        fringilla, lacus et ullamcorper laoreet, lorem metus eleifend arcu, eu placerat
+        felis dolor et risus.
+    </p>
+    <a href="/index.php?file=page.newsitem.twg">Подробнее...</a>
+</div>
+<div class="short-news">
+    <h4>Новая коллекция</h4>
+    <p>
+        Donec dictum augue imperdiet erat feugiat vitae hendrerit erat eleifend. Quisque
+        fringilla, lacus et ullamcorper laoreet, lorem metus eleifend arcu, eu placerat
+        felis dolor et risus.
+    </p>
+    <a href="/index.php?file=page.newsitem.twg">Подробнее...</a>
+</div>
+<div class="short-news">
+    <h4>Новая коллекция</h4>
+    <p>
+        Donec dictum augue imperdiet erat feugiat vitae hendrerit erat eleifend. Quisque
+        fringilla, lacus et ullamcorper laoreet, lorem metus eleifend arcu, eu placerat
+        felis dolor et risus.
+    </p>
+    <a href="/index.php?file=page.newsitem.twg">Подробнее...</a>
+</div>
+<div class="short-news">
+    <h4>Новая коллекция</h4>
+    <p>
+        Donec dictum augue imperdiet erat feugiat vitae hendrerit erat eleifend. Quisque
+        fringilla, lacus et ullamcorper laoreet, lorem metus eleifend arcu, eu placerat
+        felis dolor et risus.
+    </p>
+    <a href="/index.php?file=page.newsitem.twg">Подробнее...</a>
+</div>
+
+<div class="pagination">
+	<ul>
+		<li class="disabled"><a href="#">«</a></li>
+		<li class="active"><a href="#">1</a> </li>
+		<li><a href="#">2</a></li>
+		<li><a href="#">3</a></li>
+		<li><a href="#">4</a></li>
+		<li><a href="#">»</a></li>
+	</ul>
+	<ul class="pull-right">
+		<li class="disabled"><a href="#">на странице:</a></li>
+		<li class="dropdown">
+			<a data-toggle="dropdown" class="dropdown-toggle">20 <span class="caret"></span></a>
+			<ul class="dropdown-menu pull-right">
+				<li><a href="#">50</a></li>
+				<li><a href="#">100</a></li>
+				<li><a href="#">Все</a></li>
+			</ul>
+		</li>
+		<li class="disabled"><a href="#">сортировать:</a></li>
+		<li class="dropdown">
+			<a data-toggle="dropdown" class="dropdown-toggle">по алфавиту <span class="caret"></span></a>
+			<ul class="dropdown-menu pull-right">
+				<li><a href="#">по цене</a></li>
+				<li><a href="#">по популярности</a></li>
+			</ul>
+		</li>
+	</ul>
+</div>
+
+{% endblock content %}

@@ -1,6 +1,7 @@
 {% extends 'master.page.twg' %}
 
 {% block content %}
+
 <h1>Стиральные машины</h1>
 <p>
 	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tortor odio, porttitor
@@ -19,28 +20,30 @@
 		<li><a href="#">4</a></li>
 		<li><a href="#">»</a></li>
 	</ul>
-	<ul class="pull-right">
-		<li class="disabled"><a href="#">на странице:</a></li>
-		<li class="dropdown">
-			<a class="dropdown-toggle" data-toggle="dropdown">20 <span class="caret"></span></a>
-			<ul class="dropdown-menu pull-right">
-				<li><a href="#">50</a></li>
-				<li><a href="#">100</a></li>
-				<li><a href="#">Все</a></li>
-			</ul>
-		</li>
+	<ul class="pull-right h-navigation">
 		<li class="disabled"><a href="#">сортировать:</a></li>
 		<li class="dropdown">
-			<a class="dropdown-toggle" data-toggle="dropdown">по алфавиту <span class="caret"></span></a>
+			<a data-toggle="dropdown" class="dropdown-toggle">по алфавиту <span class="caret"></span></a>
 			<ul class="dropdown-menu pull-right">
 				<li><a href="#">по цене</a></li>
 				<li><a href="#">по популярности</a></li>
 			</ul>
 		</li>
 	</ul>
+    <ul class="pull-right h-navigation">
+		<li class="disabled"><a href="#">на странице:</a></li>
+		<li class="dropdown">
+			<a data-toggle="dropdown" class="dropdown-toggle">20 <span class="caret"></span></a>
+			<ul class="dropdown-menu pull-right">
+				<li><a href="#">50</a></li>
+				<li><a href="#">100</a></li>
+				<li><a href="#">Все</a></li>
+			</ul>
+		</li>
+    </ul>
 </div>
-
-<ul class="thumbnails item-list-area">
+<div class="clearfix"></div>
+<ul class="thumbnails item-list-area b-product-descr">
 {% for i in 0..20 %}
 	<li class="span3 simpleCart_shelfItem">
 		<a href="/index.php?file=page.product.twg" class="thumbnail">
@@ -65,27 +68,29 @@
 		<li><a href="#">4</a></li>
 		<li><a href="#">»</a></li>
 	</ul>
-	<ul class="pull-right">
-		<li class="disabled"><a href="#">на странице:</a></li>
-		<li class="dropdown">
-			<a class="dropdown-toggle" data-toggle="dropdown">20 <span class="caret"></span></a>
-			<ul class="dropdown-menu pull-right">
-				<li><a href="#">50</a></li>
-				<li><a href="#">100</a></li>
-				<li><a href="#">Все</a></li>
-			</ul>
-		</li>
+	<ul class="pull-right h-navigation no-border-left">
 		<li class="disabled"><a href="#">сортировать:</a></li>
 		<li class="dropdown">
-			<a class="dropdown-toggle" data-toggle="dropdown">по алфавиту <span class="caret"></span></a>
+			<a data-toggle="dropdown" class="dropdown-toggle">по алфавиту <span class="caret"></span></a>
 			<ul class="dropdown-menu pull-right">
 				<li><a href="#">по цене</a></li>
 				<li><a href="#">по популярности</a></li>
 			</ul>
 		</li>
 	</ul>
+    <ul class="pull-right h-navigation no-border-right">
+		<li class="disabled"><a href="#">на странице:</a></li>
+		<li class="dropdown">
+			<a data-toggle="dropdown" class="dropdown-toggle">20 <span class="caret"></span></a>
+			<ul class="dropdown-menu pull-right">
+				<li><a href="#">50</a></li>
+				<li><a href="#">100</a></li>
+				<li><a href="#">Все</a></li>
+			</ul>
+		</li>
+    </ul>
 </div>
-
+<div class="clearfix"></div>
 <p>
 	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tortor odio, porttitor
 	ac sodales sed, ultrices et enim. Quisque auctor, tortor vitae lobortis ornare,

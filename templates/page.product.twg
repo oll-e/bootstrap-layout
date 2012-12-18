@@ -3,26 +3,29 @@
 {% block content %}
 <h1>Стиральная машина Samsung 105FD</h1>
 <div class="row item-info-area">
-	<div class="span4">
-		<ul class="thumbnails">
-			<li class="span4"><a href="#" class="thumbnail">
-				<img src="http://placehold.it/360x268" alt="">
-			</a></li>
-			<li class="span2"><a href="#" class="thumbnail">
-				<img src="http://placehold.it/130x85" alt="">
-			</a></li>
-			<li class="span2"><a href="#" class="thumbnail">
-				<img src="http://placehold.it/130x85" alt="">
-			</a></li>
-			<li class="span2"><a href="#" class="thumbnail">
-				<img src="http://placehold.it/130x85" alt="">
-			</a></li>
-			<li class="span2"><a href="#" class="thumbnail">
-				<img src="http://placehold.it/130x85" alt="">
-			</a></li>
+	<div class="span7 b-product-gallery">
+		<ul class="b-product-gallery-list thumbnails">
+			<li class="b-product-gallery-list-big-img">
+                <a href="#" class="thumbnail"><img src="http://placehold.it/360x268" alt=""></a>
+            </li>
+			<li class="b-product-gallery-list-little-img">
+                <a class="thumbnail" href="#"><img alt="" src="http://placehold.it/100x65"></a>
+            </li>
+			<li class="b-product-gallery-list-little-img">
+                <a class="thumbnail" href="#"><img alt="" src="http://placehold.it/100x65"></a>
+            </li>
+            <li class="b-product-gallery-list-little-img">
+                <a class="thumbnail" href="#"><img alt="" src="http://placehold.it/100x65"></a>
+            </li>
+            <li class="b-product-gallery-list-little-img">
+                <a class="thumbnail" href="#"><img alt="" src="http://placehold.it/100x65"></a>
+            </li>
+            <li class="b-product-gallery-list-little-img">
+                <a class="thumbnail" href="#"><img alt="" src="http://placehold.it/100x65"></a>
+            </li>
 		</ul>
 	</div>
-	<div class="span5">
+	<div class="span5 pull-right b-product-description">
 		<p class="price">
 			10500 р.
 		</p>

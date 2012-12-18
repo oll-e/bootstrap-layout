@@ -1,61 +1,84 @@
-<h3>
-	Каталог</h3>
-<ul class="unstyled">
-	<li><a href="/index.php?file=page.products.twg">Стиральные машины</a></li>
-	<li><a href="/index.php?file=page.products.twg">Холодильники</a></li>
-	<li><a href="/index.php?file=page.products.twg">Телевизоры</a></li>
-	<li><a href="/index.php?file=page.products.twg">Посудомоечные машины</a></li>
-	<li><a href="/index.php?file=page.products.twg">Микроволновые печи</a></li>
-	<li><a href="/index.php?file=page.products.twg">Кофеварки</a>
-		<ul>
-			<li><a href="/index.php?file=page.products.twg">Delonghi</a></li>
-			<li><a href="/index.php?file=page.products.twg">Philips</a></li>
-			<li><a href="/index.php?file=page.products.twg">Saeco</a></li>
-			<li><a href="/index.php?file=page.products.twg">Tefal</a></li>
-		</ul>
-	</li>
-	<li><a href="/index.php?file=page.products.twg">Утюги</a></li>
-	<li><a href="/index.php?file=page.products.twg">Аксессуары для кухни</a></li>
-</ul>
-<h3>
-	Производители</h3>
-<ul class="unstyled">
-	<li><a href="/index.php?file=page.search.twg">ABBYY</a></li>
-	<li><a href="/index.php?file=page.search.twg">Microsoft</a></li>
-	<li><a href="/index.php?file=page.search.twg">Intel</a></li>
-	<li><a href="/index.php?file=page.search.twg">Samsung</a></li>
-	<li><a href="/index.php?file=page.search.twg">HTC</a></li>
-	<li><a href="/index.php?file=page.search.twg">Лидская мебельная фабрика</a></li>
-</ul>
-<h3>
-	Новости</h3>
-<div class="short-news">
-	<h4>
-		Новая коллекция</h4>
-	<p>
-		Donec dictum augue imperdiet erat feugiat vitae hendrerit erat eleifend. Quisque
-		fringilla, lacus et ullamcorper laoreet, lorem metus eleifend arcu, eu placerat
-		felis dolor et risus.
-	</p>
-	<a href="/index.php?file=page.newsitem.twg">Подробнее...</a>
+<h3>Каталог</h3>
+<a class="btn btn-navbar b-main-menu-link" data-toggle="collapse" data-target=".b-main-menu">
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+</a><!--if < menu-->
+<div class="clearfix"></div>
+<div class="b-main-menu">
+    <ul class="unstyled">
+        <li><a href="/index.php?file=page.products.twg">Стиральные машины</a></li>
+        <li><a href="/index.php?file=page.products.twg">Холодильники</a></li>
+        <li><a href="/index.php?file=page.products.twg">Телевизоры</a></li>
+        <li><a href="/index.php?file=page.products.twg">Посудомоечные машины</a></li>
+        <li><a href="/index.php?file=page.products.twg">Микроволновые печи</a></li>
+        <li><a href="/index.php?file=page.products.twg">Кофеварки</a>
+            <ul>
+                <li><a href="/index.php?file=page.products.twg">Delonghi</a></li>
+                <li><a href="/index.php?file=page.products.twg">Philips</a></li>
+                <li><a href="/index.php?file=page.products.twg">Saeco</a></li>
+                <li><a href="/index.php?file=page.products.twg">Tefal</a></li>
+            </ul>
+        </li>
+        <li><a href="/index.php?file=page.products.twg">Утюги</a></li>
+        <li><a href="/index.php?file=page.products.twg">Аксессуары для кухни</a></li>
+    </ul>
+</div><!--/.nav-collapse -->
+
+
+<h3>Производители</h3>
+<a class="btn btn-navbar b-maker-link" data-toggle="collapse" data-target=".b-maker">
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+</a><!--if < menu-->
+<div class="clearfix"></div>
+<div class="b-maker">
+    <ul class="unstyled">
+        <li><a href="/index.php?file=page.search.twg">ABBYY</a></li>
+        <li><a href="/index.php?file=page.search.twg">Microsoft</a></li>
+        <li><a href="/index.php?file=page.search.twg">Intel</a></li>
+        <li><a href="/index.php?file=page.search.twg">Samsung</a></li>
+        <li><a href="/index.php?file=page.search.twg">HTC</a></li>
+        <li><a href="/index.php?file=page.search.twg">Лидская мебельная фабрика</a></li>
+    </ul>
 </div>
-<div class="short-news">
-	<h4>
-		Снижение цен</h4>
-	<p>
-		Donec dictum augue imperdiet erat feugiat vitae hendrerit erat eleifend. Quisque
-		fringilla, lacus et ullamcorper laoreet, lorem metus eleifend arcu, eu placerat
-		felis dolor et risus.
-	</p>
-	<a href="/index.php?file=page.newsitem.twg">Подробнее...</a>
+
+
+<h3>Новости</h3>
+<a class="btn btn-navbar b-news-link" data-toggle="collapse" data-target=".b-news">
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+</a><!--if < menu-->
+<div class="clearfix"></div>
+<div class="b-news">
+    <div class="short-news">
+        <h4>Новая коллекция</h4>
+        <p>
+            Donec dictum augue imperdiet erat feugiat vitae hendrerit erat eleifend. Quisque
+            fringilla, lacus et ullamcorper laoreet, lorem metus eleifend arcu, eu placerat
+            felis dolor et risus.
+        </p>
+        <a href="/index.php?file=page.newsitem.twg">Подробнее...</a>
+    </div>
+    <div class="short-news">
+        <h4>Снижение цен</h4>
+        <p>
+            Donec dictum augue imperdiet erat feugiat vitae hendrerit erat eleifend. Quisque
+            fringilla, lacus et ullamcorper laoreet, lorem metus eleifend arcu, eu placerat
+            felis dolor et risus.
+        </p>
+        <a href="/index.php?file=page.newsitem.twg">Подробнее...</a>
+    </div>
+    <div class="short-news">
+        <h4>Акция!!!</h4>
+        <p>
+            Donec dictum augue imperdiet erat feugiat vitae hendrerit erat eleifend. Quisque
+            fringilla, lacus et ullamcorper laoreet, lorem metus eleifend arcu, eu placerat
+            felis dolor et risus.
+        </p>
+        <a href="/index.php?file=page.newsitem.twg">Подробнее...</a>
+    </div>
 </div>
-<div class="short-news">
-	<h4>
-		Акция!!!</h4>
-	<p>
-		Donec dictum augue imperdiet erat feugiat vitae hendrerit erat eleifend. Quisque
-		fringilla, lacus et ullamcorper laoreet, lorem metus eleifend arcu, eu placerat
-		felis dolor et risus.
-	</p>
-	<a href="/index.php?file=page.newsitem.twg">Подробнее...</a>
-</div>
+

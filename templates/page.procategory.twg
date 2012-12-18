@@ -1,0 +1,104 @@
+{% extends 'master.page.twg' %}
+
+{% block content %}
+
+<ul class="thumbnails item-list-area b-product-category">
+	<li class="simpleCart_shelfItem">
+		<a href="/index.php?file=page.product.twg" class="thumbnail">
+			<img src="http://placehold.it/160x160" alt="">
+		</a>
+		<div class="b-subsection">
+            <p>
+                <a class="a-black" href="/index.php?file=page.products.twg"><h3>Стиральные машины</h3></a>
+            </p>
+            <ul class="unstyled">
+                <li><a class="a-darkblue" href="/index.php?file=page.products.twg">Узкие 32-45 см</a></li>
+                <li><a class="a-darkblue" href="/index.php?file=page.products.twg">Полногабаритные 52-60 см</a></li>
+                <li><a class="a-darkblue" href="/index.php?file=page.products.twg">С вертикальной загрузкой</a></li>
+                <li><a class="a-darkblue" href="/index.php?file=page.products.twg">Компактные</a></li>
+                <li><a class="a-darkblue" href="/index.php?file=page.products.twg">С сушкой</a></li>
+                <li><a class="a-darkblue" href="/index.php?file=page.products.twg">Воздушно-пузырькового типа</a></li>
+                <li><a class="a-darkblue" href="/index.php?file=page.products.twg">Полуавтомат</a></li>
+                <li><a class="item_name" href="/index.php?file=page.products.twg">Все стиральные машины →</a></li>
+            </ul>
+        </div>
+	</li>
+    <li class="simpleCart_shelfItem">
+		<a href="/index.php?file=page.product.twg" class="thumbnail">
+			<img src="http://placehold.it/160x160" alt="">
+		</a>
+		<div class="b-subsection">
+            <p>
+                <a class="a-black" href="/index.php?file=page.products.twg"><h3>Холодильники</h3></a>
+            </p>
+            <ul class="unstyled">
+                <li><a class="a-darkblue" href="/index.php?file=page.products.twg">Двухкамерные</a></li>
+                <li><a class="a-darkblue" href="/index.php?file=page.products.twg">Side-by-side</a></li>
+                <li><a class="a-darkblue" href="/index.php?file=page.products.twg">Однокамерные</a></li>
+                <li><a class="a-darkblue" href="/index.php?file=page.products.twg">Для вина</a></li>
+                <li><a class="a-darkblue" href="/index.php?file=page.products.twg">Для сыра и салями</a></li>
+                <li><a class="item_name" href="/index.php?file=page.products.twg">Все холодильники →</a></li>
+            </ul>
+        </div>
+	</li>
+    <li class="simpleCart_shelfItem">
+		<a href="/index.php?file=page.product.twg" class="thumbnail">
+			<img src="http://placehold.it/160x160" alt="">
+		</a>
+		<div class="b-subsection">
+            <p>
+                <a class="a-black" href="/index.php?file=page.products.twg"><h3>Сушильные автоматы</h3></a>
+            </p>
+        </div>
+	</li>
+    <li class="simpleCart_shelfItem">
+		<a href="/index.php?file=page.product.twg" class="thumbnail">
+			<img src="http://placehold.it/160x160" alt="">
+		</a>
+		<div class="b-subsection">
+            <p>
+                <a class="a-black" href="/index.php?file=page.products.twg"><h3>Стиральные машины</h3></a>
+            </p>
+            <ul class="unstyled">
+                <li><a class="a-darkblue" href="/index.php?file=page.products.twg">Узкие 32-45 см</a></li>
+                <li><a class="a-darkblue" href="/index.php?file=page.products.twg">Полногабаритные 52-60 см</a></li>
+                <li><a class="a-darkblue" href="/index.php?file=page.products.twg">С вертикальной загрузкой</a></li>
+                <li><a class="a-darkblue" href="/index.php?file=page.products.twg">Компактные</a></li>
+                <li><a class="a-darkblue" href="/index.php?file=page.products.twg">С сушкой</a></li>
+                <li><a class="a-darkblue" href="/index.php?file=page.products.twg">Воздушно-пузырькового типа</a></li>
+                <li><a class="a-darkblue" href="/index.php?file=page.products.twg">Полуавтомат</a></li>
+                <li><a class="item_name" href="/index.php?file=page.products.twg">Все стиральные машины →</a></li>
+            </ul>
+        </div>
+	</li>
+    <li class="simpleCart_shelfItem">
+		<a href="/index.php?file=page.product.twg" class="thumbnail">
+			<img src="http://placehold.it/160x160" alt="">
+		</a>
+		<div class="b-subsection">
+            <p>
+                <a class="a-black" href="/index.php?file=page.products.twg"><h3>Сушильные автоматы</h3></a>
+            </p>
+        </div>
+	</li>
+    <li class="simpleCart_shelfItem">
+		<a href="/index.php?file=page.product.twg" class="thumbnail">
+			<img src="http://placehold.it/160x160" alt="">
+		</a>
+		<div class="b-subsection">
+            <p>
+                <a class="a-black" href="/index.php?file=page.products.twg"><h3>Плиты</h3></a>
+            </p>
+            <ul class="unstyled">
+                <li><a class="a-darkblue" href="/index.php?file=page.products.twg">Электрические</a></li>
+                <li><a class="a-darkblue" href="/index.php?file=page.products.twg">Комбинированные</a></li>
+                <li><a class="a-darkblue" href="/index.php?file=page.products.twg">Газовые</a></li>
+                <li><a class="a-darkblue" href="/index.php?file=page.products.twg">Настольные</a></li>
+                <li><a class="item_name" href="/index.php?file=page.products.twg">Все плиты →</a></li>
+            </ul>
+        </div>
+	</li>
+</ul>
+
+
+{% endblock content %}

@@ -1,0 +1,299 @@
+{% extends 'master.page.twg' %}
+
+{% block content %}
+
+
+<h3>Gamma Gallery</h3>
+
+<div class="gamma-container gamma-loading" id="gamma-container">
+    <ul class="gamma-gallery">
+        <li>
+            <div data-alt="img03" data-description="<h5>Description</h5>" data-max-width="1800" data-max-height="1350">
+                <div data-src="assets/img/gallery/xxxlarge/3.jpg" data-min-width="1300"></div>
+                <div data-src="assets/img/gallery/xxlarge/3.jpg" data-min-width="1000"></div>
+                <div data-src="assets/img/gallery/xlarge/3.jpg" data-min-width="700"></div>
+                <div data-src="assets/img/gallery/large/3.jpg" data-min-width="300"></div>
+                <div data-src="assets/img/gallery/medium/3.jpg" data-min-width="200"></div>
+                <div data-src="assets/img/gallery/small/3.jpg" data-min-width="140"></div>
+                <div data-src="assets/img/gallery/xsmall/3.jpg"></div>
+                <noscript>
+                    <img src="assets/img/gallery/xsmall/3.jpg" alt="img03"/>
+                </noscript>
+            </div>
+        </li>
+        <li>
+            <div data-alt="img03" data-description="<h5>Description</h5>" data-max-width="1800" data-max-height="1350">
+                <div data-src="assets/img/gallery/xxxlarge/3.jpg" data-min-width="1300"></div>
+                <div data-src="assets/img/gallery/xxlarge/3.jpg" data-min-width="1000"></div>
+                <div data-src="assets/img/gallery/xlarge/3.jpg" data-min-width="700"></div>
+                <div data-src="assets/img/gallery/large/3.jpg" data-min-width="300"></div>
+                <div data-src="assets/img/gallery/medium/3.jpg" data-min-width="200"></div>
+                <div data-src="assets/img/gallery/small/3.jpg" data-min-width="140"></div>
+                <div data-src="assets/img/gallery/xsmall/3.jpg"></div>
+                <noscript>
+                    <img src="assets/img/gallery/xsmall/3.jpg" alt="img03"/>
+                </noscript>
+            </div>
+        </li>
+        <li>
+            <div data-alt="img03" data-description="<h5>Description</h5>" data-max-width="1800" data-max-height="1350">
+                <div data-src="assets/img/gallery/xxxlarge/3.jpg" data-min-width="1300"></div>
+                <div data-src="assets/img/gallery/xxlarge/3.jpg" data-min-width="1000"></div>
+                <div data-src="assets/img/gallery/xlarge/3.jpg" data-min-width="700"></div>
+                <div data-src="assets/img/gallery/large/3.jpg" data-min-width="300"></div>
+                <div data-src="assets/img/gallery/medium/3.jpg" data-min-width="200"></div>
+                <div data-src="assets/img/gallery/small/3.jpg" data-min-width="140"></div>
+                <div data-src="assets/img/gallery/xsmall/3.jpg"></div>
+                <noscript>
+                    <img src="assets/img/gallery/xsmall/3.jpg" alt="img03"/>
+                </noscript>
+            </div>
+        </li>
+        <li>
+            <div data-alt="img03" data-description="<h5>Description</h5>" data-max-width="1800" data-max-height="1350">
+                <div data-src="assets/img/gallery/xxxlarge/3.jpg" data-min-width="1300"></div>
+                <div data-src="assets/img/gallery/xxlarge/3.jpg" data-min-width="1000"></div>
+                <div data-src="assets/img/gallery/xlarge/3.jpg" data-min-width="700"></div>
+                <div data-src="assets/img/gallery/large/3.jpg" data-min-width="300"></div>
+                <div data-src="assets/img/gallery/medium/3.jpg" data-min-width="200"></div>
+                <div data-src="assets/img/gallery/small/3.jpg" data-min-width="140"></div>
+                <div data-src="assets/img/gallery/xsmall/3.jpg"></div>
+                <noscript>
+                    <img src="assets/img/gallery/xsmall/3.jpg" alt="img03"/>
+                </noscript>
+            </div>
+        </li>
+        <li>
+            <div data-alt="img03" data-description="<h5>Description</h5>" data-max-width="1800" data-max-height="1350">
+                <div data-src="assets/img/gallery/xxxlarge/3.jpg" data-min-width="1300"></div>
+                <div data-src="assets/img/gallery/xxlarge/3.jpg" data-min-width="1000"></div>
+                <div data-src="assets/img/gallery/xlarge/3.jpg" data-min-width="700"></div>
+                <div data-src="assets/img/gallery/large/3.jpg" data-min-width="300"></div>
+                <div data-src="assets/img/gallery/medium/3.jpg" data-min-width="200"></div>
+                <div data-src="assets/img/gallery/small/3.jpg" data-min-width="140"></div>
+                <div data-src="assets/img/gallery/xsmall/3.jpg"></div>
+                <noscript>
+                    <img src="assets/img/gallery/xsmall/3.jpg" alt="img03"/>
+                </noscript>
+            </div>
+        </li>
+        <li>
+            <div data-alt="img03" data-description="<h5>Description</h5>" data-max-width="1800" data-max-height="1350">
+                <div data-src="assets/img/gallery/xxxlarge/3.jpg" data-min-width="1300"></div>
+                <div data-src="assets/img/gallery/xxlarge/3.jpg" data-min-width="1000"></div>
+                <div data-src="assets/img/gallery/xlarge/3.jpg" data-min-width="700"></div>
+                <div data-src="assets/img/gallery/large/3.jpg" data-min-width="300"></div>
+                <div data-src="assets/img/gallery/medium/3.jpg" data-min-width="200"></div>
+                <div data-src="assets/img/gallery/small/3.jpg" data-min-width="140"></div>
+                <div data-src="assets/img/gallery/xsmall/3.jpg"></div>
+                <noscript>
+                    <img src="assets/img/gallery/xsmall/3.jpg" alt="img03"/>
+                </noscript>
+            </div>
+        </li>
+        <li>
+            <div data-alt="img03" data-description="<h5>Description</h5>" data-max-width="1800" data-max-height="1350">
+                <div data-src="assets/img/gallery/xxxlarge/3.jpg" data-min-width="1300"></div>
+                <div data-src="assets/img/gallery/xxlarge/3.jpg" data-min-width="1000"></div>
+                <div data-src="assets/img/gallery/xlarge/3.jpg" data-min-width="700"></div>
+                <div data-src="assets/img/gallery/large/3.jpg" data-min-width="300"></div>
+                <div data-src="assets/img/gallery/medium/3.jpg" data-min-width="200"></div>
+                <div data-src="assets/img/gallery/small/3.jpg" data-min-width="140"></div>
+                <div data-src="assets/img/gallery/xsmall/3.jpg"></div>
+                <noscript>
+                    <img src="assets/img/gallery/xsmall/3.jpg" alt="img03"/>
+                </noscript>
+            </div>
+        </li>
+        <li>
+            <div data-alt="img03" data-description="<h5>Description</h5>" data-max-width="1800" data-max-height="1350">
+                <div data-src="assets/img/gallery/xxxlarge/3.jpg" data-min-width="1300"></div>
+                <div data-src="assets/img/gallery/xxlarge/3.jpg" data-min-width="1000"></div>
+                <div data-src="assets/img/gallery/xlarge/3.jpg" data-min-width="700"></div>
+                <div data-src="assets/img/gallery/large/3.jpg" data-min-width="300"></div>
+                <div data-src="assets/img/gallery/medium/3.jpg" data-min-width="200"></div>
+                <div data-src="assets/img/gallery/small/3.jpg" data-min-width="140"></div>
+                <div data-src="assets/img/gallery/xsmall/3.jpg"></div>
+                <noscript>
+                    <img src="assets/img/gallery/xsmall/3.jpg" alt="img03"/>
+                </noscript>
+            </div>
+        </li>
+        <li>
+            <div data-alt="img03" data-description="<h5>Description</h5>" data-max-width="1800" data-max-height="1350">
+                <div data-src="assets/img/gallery/xxxlarge/3.jpg" data-min-width="1300"></div>
+                <div data-src="assets/img/gallery/xxlarge/3.jpg" data-min-width="1000"></div>
+                <div data-src="assets/img/gallery/xlarge/3.jpg" data-min-width="700"></div>
+                <div data-src="assets/img/gallery/large/3.jpg" data-min-width="300"></div>
+                <div data-src="assets/img/gallery/medium/3.jpg" data-min-width="200"></div>
+                <div data-src="assets/img/gallery/small/3.jpg" data-min-width="140"></div>
+                <div data-src="assets/img/gallery/xsmall/3.jpg"></div>
+                <noscript>
+                    <img src="assets/img/gallery/xsmall/3.jpg" alt="img03"/>
+                </noscript>
+            </div>
+        </li>
+        <li>
+            <div data-alt="img03" data-description="<h5>Description</h5>" data-max-width="1800" data-max-height="1350">
+                <div data-src="assets/img/gallery/xxxlarge/3.jpg" data-min-width="1300"></div>
+                <div data-src="assets/img/gallery/xxlarge/3.jpg" data-min-width="1000"></div>
+                <div data-src="assets/img/gallery/xlarge/3.jpg" data-min-width="700"></div>
+                <div data-src="assets/img/gallery/large/3.jpg" data-min-width="300"></div>
+                <div data-src="assets/img/gallery/medium/3.jpg" data-min-width="200"></div>
+                <div data-src="assets/img/gallery/small/3.jpg" data-min-width="140"></div>
+                <div data-src="assets/img/gallery/xsmall/3.jpg"></div>
+                <noscript>
+                    <img src="assets/img/gallery/xsmall/3.jpg" alt="img03"/>
+                </noscript>
+            </div>
+        </li>
+        <li>
+            <div data-alt="img03" data-description="<h5>Description</h5>" data-max-width="1800" data-max-height="1350">
+                <div data-src="assets/img/gallery/xxxlarge/3.jpg" data-min-width="1300"></div>
+                <div data-src="assets/img/gallery/xxlarge/3.jpg" data-min-width="1000"></div>
+                <div data-src="assets/img/gallery/xlarge/3.jpg" data-min-width="700"></div>
+                <div data-src="assets/img/gallery/large/3.jpg" data-min-width="300"></div>
+                <div data-src="assets/img/gallery/medium/3.jpg" data-min-width="200"></div>
+                <div data-src="assets/img/gallery/small/3.jpg" data-min-width="140"></div>
+                <div data-src="assets/img/gallery/xsmall/3.jpg"></div>
+                <noscript>
+                    <img src="assets/img/gallery/xsmall/3.jpg" alt="img03"/>
+                </noscript>
+            </div>
+        </li>
+        <li>
+            <div data-alt="img03" data-description="<h5>Description</h5>" data-max-width="1800" data-max-height="1350">
+                <div data-src="assets/img/gallery/xxxlarge/3.jpg" data-min-width="1300"></div>
+                <div data-src="assets/img/gallery/xxlarge/3.jpg" data-min-width="1000"></div>
+                <div data-src="assets/img/gallery/xlarge/3.jpg" data-min-width="700"></div>
+                <div data-src="assets/img/gallery/large/3.jpg" data-min-width="300"></div>
+                <div data-src="assets/img/gallery/medium/3.jpg" data-min-width="200"></div>
+                <div data-src="assets/img/gallery/small/3.jpg" data-min-width="140"></div>
+                <div data-src="assets/img/gallery/xsmall/3.jpg"></div>
+                <noscript>
+                    <img src="assets/img/gallery/xsmall/3.jpg" alt="img03"/>
+                </noscript>
+            </div>
+        </li>
+        <li>
+            <div data-alt="img03" data-description="<h5>Description</h5>" data-max-width="1800" data-max-height="1350">
+                <div data-src="assets/img/gallery/xxxlarge/3.jpg" data-min-width="1300"></div>
+                <div data-src="assets/img/gallery/xxlarge/3.jpg" data-min-width="1000"></div>
+                <div data-src="assets/img/gallery/xlarge/3.jpg" data-min-width="700"></div>
+                <div data-src="assets/img/gallery/large/3.jpg" data-min-width="300"></div>
+                <div data-src="assets/img/gallery/medium/3.jpg" data-min-width="200"></div>
+                <div data-src="assets/img/gallery/small/3.jpg" data-min-width="140"></div>
+                <div data-src="assets/img/gallery/xsmall/3.jpg"></div>
+                <noscript>
+                    <img src="assets/img/gallery/xsmall/3.jpg" alt="img03"/>
+                </noscript>
+            </div>
+        </li>
+        <li>
+            <div data-alt="img03" data-description="<h5>Description</h5>" data-max-width="1800" data-max-height="1350">
+                <div data-src="assets/img/gallery/xxxlarge/3.jpg" data-min-width="1300"></div>
+                <div data-src="assets/img/gallery/xxlarge/3.jpg" data-min-width="1000"></div>
+                <div data-src="assets/img/gallery/xlarge/3.jpg" data-min-width="700"></div>
+                <div data-src="assets/img/gallery/large/3.jpg" data-min-width="300"></div>
+                <div data-src="assets/img/gallery/medium/3.jpg" data-min-width="200"></div>
+                <div data-src="assets/img/gallery/small/3.jpg" data-min-width="140"></div>
+                <div data-src="assets/img/gallery/xsmall/3.jpg"></div>
+                <noscript>
+                    <img src="assets/img/gallery/xsmall/3.jpg" alt="img03"/>
+                </noscript>
+            </div>
+        </li>
+        <li>
+            <div data-alt="img03" data-description="<h5>Description</h5>" data-max-width="1800" data-max-height="1350">
+                <div data-src="assets/img/gallery/xxxlarge/3.jpg" data-min-width="1300"></div>
+                <div data-src="assets/img/gallery/xxlarge/3.jpg" data-min-width="1000"></div>
+                <div data-src="assets/img/gallery/xlarge/3.jpg" data-min-width="700"></div>
+                <div data-src="assets/img/gallery/large/3.jpg" data-min-width="300"></div>
+                <div data-src="assets/img/gallery/medium/3.jpg" data-min-width="200"></div>
+                <div data-src="assets/img/gallery/small/3.jpg" data-min-width="140"></div>
+                <div data-src="assets/img/gallery/xsmall/3.jpg"></div>
+                <noscript>
+                    <img src="assets/img/gallery/xsmall/3.jpg" alt="img03"/>
+                </noscript>
+            </div>
+        </li>
+        <li>
+            <div data-alt="img03" data-description="<h5>Description</h5>" data-max-width="1800" data-max-height="1350">
+                <div data-src="assets/img/gallery/xxxlarge/3.jpg" data-min-width="1300"></div>
+                <div data-src="assets/img/gallery/xxlarge/3.jpg" data-min-width="1000"></div>
+                <div data-src="assets/img/gallery/xlarge/3.jpg" data-min-width="700"></div>
+                <div data-src="assets/img/gallery/large/3.jpg" data-min-width="300"></div>
+                <div data-src="assets/img/gallery/medium/3.jpg" data-min-width="200"></div>
+                <div data-src="assets/img/gallery/small/3.jpg" data-min-width="140"></div>
+                <div data-src="assets/img/gallery/xsmall/3.jpg"></div>
+                <noscript>
+                    <img src="assets/img/gallery/xsmall/3.jpg" alt="img03"/>
+                </noscript>
+            </div>
+        </li>
+        <li>
+            <div data-alt="img03" data-description="<h5>Description</h5>" data-max-width="1800" data-max-height="1350">
+                <div data-src="assets/img/gallery/xxxlarge/3.jpg" data-min-width="1300"></div>
+                <div data-src="assets/img/gallery/xxlarge/3.jpg" data-min-width="1000"></div>
+                <div data-src="assets/img/gallery/xlarge/3.jpg" data-min-width="700"></div>
+                <div data-src="assets/img/gallery/large/3.jpg" data-min-width="300"></div>
+                <div data-src="assets/img/gallery/medium/3.jpg" data-min-width="200"></div>
+                <div data-src="assets/img/gallery/small/3.jpg" data-min-width="140"></div>
+                <div data-src="assets/img/gallery/xsmall/3.jpg"></div>
+                <noscript>
+                    <img src="assets/img/gallery/xsmall/3.jpg" alt="img03"/>
+                </noscript>
+            </div>
+        </li>
+        <li>
+            <div data-alt="img03" data-description="<h5>Description</h5>" data-max-width="1800" data-max-height="1350">
+                <div data-src="assets/img/gallery/xxxlarge/3.jpg" data-min-width="1300"></div>
+                <div data-src="assets/img/gallery/xxlarge/3.jpg" data-min-width="1000"></div>
+                <div data-src="assets/img/gallery/xlarge/3.jpg" data-min-width="700"></div>
+                <div data-src="assets/img/gallery/large/3.jpg" data-min-width="300"></div>
+                <div data-src="assets/img/gallery/medium/3.jpg" data-min-width="200"></div>
+                <div data-src="assets/img/gallery/small/3.jpg" data-min-width="140"></div>
+                <div data-src="assets/img/gallery/xsmall/3.jpg"></div>
+                <noscript>
+                    <img src="assets/img/gallery/xsmall/3.jpg" alt="img03"/>
+                </noscript>
+            </div>
+        </li>
+        <li>
+            <div data-alt="img03" data-description="<h5>Description</h5>" data-max-width="1800" data-max-height="1350">
+                <div data-src="assets/img/gallery/xxxlarge/3.jpg" data-min-width="1300"></div>
+                <div data-src="assets/img/gallery/xxlarge/3.jpg" data-min-width="1000"></div>
+                <div data-src="assets/img/gallery/xlarge/3.jpg" data-min-width="700"></div>
+                <div data-src="assets/img/gallery/large/3.jpg" data-min-width="300"></div>
+                <div data-src="assets/img/gallery/medium/3.jpg" data-min-width="200"></div>
+                <div data-src="assets/img/gallery/small/3.jpg" data-min-width="140"></div>
+                <div data-src="assets/img/gallery/xsmall/3.jpg"></div>
+                <noscript>
+                    <img src="assets/img/gallery/xsmall/3.jpg" alt="img03"/>
+                </noscript>
+            </div>
+        </li>
+        <li>
+            <div data-alt="img03" data-description="<h5>Description</h5>" data-max-width="1800" data-max-height="1350">
+                <div data-src="assets/img/gallery/xxxlarge/3.jpg" data-min-width="1300"></div>
+                <div data-src="assets/img/gallery/xxlarge/3.jpg" data-min-width="1000"></div>
+                <div data-src="assets/img/gallery/xlarge/3.jpg" data-min-width="700"></div>
+                <div data-src="assets/img/gallery/large/3.jpg" data-min-width="300"></div>
+                <div data-src="assets/img/gallery/medium/3.jpg" data-min-width="200"></div>
+                <div data-src="assets/img/gallery/small/3.jpg" data-min-width="140"></div>
+                <div data-src="assets/img/gallery/xsmall/3.jpg"></div>
+                <noscript>
+                    <img src="assets/img/gallery/xsmall/3.jpg" alt="img03"/>
+                </noscript>
+            </div>
+        </li>
+    </ul>
+
+    <div class="gamma-overlay"></div>
+    
+    <div id="loadmore" class="loadmore">Example for loading more items...</div>
+    
+    <div class="clearfix"></div>
+</div>
+
+{% endblock content %}
