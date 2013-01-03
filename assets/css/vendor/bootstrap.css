@@ -405,8 +405,8 @@ a:hover {
 }
 
 .row-fluid .span7 {
-  width: 57.44680851063829%;
-  *width: 57.39361702127659%;
+  width: 54.44680851063829%;
+  *width: 54.39361702127659%;
 }
 
 .row-fluid .span6 {
@@ -5349,6 +5349,10 @@ input[type="submit"].btn.btn-mini {
   float: left;
   margin-bottom: 20px;
   margin-left: 20px;
+}
+.thumbnails > li.b-product-gallery-list-big-img {
+  padding-right: 20px;
+  width: 100%;
 }
 .thumbnails.b-product-category > li {
   display: inline-block;

@@ -1,3 +1,18 @@
+@import url('demo.css');
+
+/* Entypo Icon Font */
+@font-face {
+  font-family: 'entypo-selected';
+  src: url("../font/entypo-selected.eot");
+  src: 
+	  url("../font/entypo-selected.eot?#iefix") format('embedded-opentype'), 
+	  url("../font/entypo-selected.woff") format('woff'), 
+	  url("../font/entypo-selected.ttf") format('truetype'), 
+	  url("../font/entypo-selected.svg#entypo-selected") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* Gamma Gallery Style */
 
 .gamma-container {
@@ -84,6 +99,7 @@
 
 .gamma-description h5 {
 	width: 100%;
+	padding: 0 20px;
 	font-weight: 400;
 	text-transform: uppercase;
 	font-size: 16px;
@@ -136,7 +152,7 @@ button.gamma-btn-ssplay:before {
 }
 
 button.gamma-btn-sspause:before {
-	content: '\2389';
+	content: 'II';
 }
 
 .gamma-single-view {
@@ -186,7 +202,7 @@ button.gamma-btn-sspause:before {
 	top: auto;
 }
 
-.gamma-single-view .gamma-description h3 {
+.gamma-single-view .gamma-description h5 {
 	font-size: 15px;
 	padding: 5px 0;
 	color: #fff;
@@ -231,11 +247,11 @@ button.gamma-btn-sspause:before {
 }
 
 .gamma-nav span.gamma-prev:before {
-	content: '\e75d';
+	content: '<';
 }
 
 .gamma-nav span.gamma-next:before {
-	content: '\e75e';
+	content: '>';
 }
 
 .gamma-img-fly {
@@ -248,11 +264,11 @@ button.gamma-btn-sspause:before {
 /* Loaders */
 
 .gamma-loading {
-	background: transparent url(img/gallery/loader_light.gif) no-repeat center center;
+	background: transparent url(../images/loader_light.gif) no-repeat center center;
 }
 
 .gamma-single-view.gamma-loading {
-	background: transparent url(../assets/img/gallery/loader_dark.gif) no-repeat center center;
+	background: transparent url(../images/loader_dark.gif) no-repeat center center;
 }
 
 
@@ -263,7 +279,7 @@ button.gamma-btn-sspause:before {
 .gamma-buttons button,
 .gamma-description-wrapper,
 .gamma-description,
-.gamma-description h3 {
+.gamma-description h5 {
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-khtml-user-select: none;
@@ -281,7 +297,7 @@ button.gamma-btn-sspause:before {
 		right: 10px;
 	}
 
-	.gamma-description h3 {
+	.gamma-description h5 {
 		font-size: 14px;
 		padding: 0 5px;
 	}
@@ -295,21 +311,4 @@ button.gamma-btn-sspause:before {
 		clear: both;
 	}
 
-}
-
-.loadmore {
-	padding: 10px;
-	background: #ddd;
-	color: #fff;
-	text-transform: uppercase;
-	letter-spacing: 3px;
-	font-weight: 700;
-	text-align: center;
-	cursor: pointer;
-	margin: 10px 4px;
-	display: none;
-}
-
-.loadmore:hover {
-	background: #333;
 }

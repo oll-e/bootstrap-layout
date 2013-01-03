@@ -15,6 +15,7 @@
         <noscript><link rel="stylesheet" type="text/css" href="assets/css/gallery/noJS.css"/></noscript>
         <!--[if lte IE 7]><style>.main{display:none;} .support-note .note-ie{display:block;}</style><![endif]-->
         
+        
         <link href="assets/css/holster.css" rel="stylesheet" type="text/css" />
 		<link href="assets/css/vendor/bootstrap.css" rel="stylesheet" type="text/css" />
 		<link href="assets/css/vendor/bootstrap-responsive.css" rel="stylesheet" type="text/css" />
@@ -170,36 +171,36 @@
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
-    <div class="container">
-    
-        {% block header %}
-            {% include 'partials/header.twg' %}
-        {% endblock header %}
+        <div class="container">
         
-        <div class="container-fluid">
-            <div class="row-fluid">
-                <div class="span3">
-                    {% block sidebar %}
-                        {% include 'partials/sidebar.twg' %}
-                    {% endblock sidebar %}
-                </div><!--/span3 aside-->
+            {% block header %}
+                {% include 'partials/header.twg' %}
+            {% endblock header %}
             
-                <div class="span9">
-                    {% block content %}
+            <div class="container-fluid">
+                <div class="row-fluid">
+                    <div class="span3">
+                        {% block sidebar %}
+                            {% include 'partials/sidebar.twg' %}
+                        {% endblock sidebar %}
+                    </div><!--/span3 aside-->
+                
+                    <div class="span9">
+                        {% block content %}
 
-                    {% endblock content %}
-                </div><!--/span9 main-content-->
-            </div><!--/row-->
-            
-            <hr>
-            
-            <footer>
-            {% block footer %}
-            {% include 'partials/footer.twg' %}
-            {% endblock footer %}
-            </footer>
-        </div>
-    </div>    
+                        {% endblock content %}
+                    </div><!--/span9 main-content-->
+                </div><!--/row-->
+                
+                <hr>
+                
+                <footer>
+                {% block footer %}
+                {% include 'partials/footer.twg' %}
+                {% endblock footer %}
+                </footer>
+            </div>
+        </div>    
 		<!--[if lt IE 9]>
 			<script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
