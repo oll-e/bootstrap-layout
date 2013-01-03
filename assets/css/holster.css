@@ -9,3 +9,8 @@
 .checkout .h-btn-bottom {
     margin-bottom: 10px;
 }
+.h-after-b-answer {
+    display: block;
+    height: 10px;
+    width: 100%;
+}

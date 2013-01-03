@@ -15,6 +15,7 @@
         <noscript><link rel="stylesheet" type="text/css" href="assets/css/gallery/noJS.css"/></noscript>
         <!--[if lte IE 7]><style>.main{display:none;} .support-note .note-ie{display:block;}</style><![endif]-->
         
+        <script src="js/bootstrap-tab.js"></script>
         
         <link href="assets/css/holster.css" rel="stylesheet" type="text/css" />
 		<link href="assets/css/vendor/bootstrap.css" rel="stylesheet" type="text/css" />
@@ -39,6 +40,7 @@
         <script src="assets/js/gallery/gamma.js"></script>
         <!--Gamma Gallery-->
         
+        <script src="assets/js/bootstrap/bootstrap-tab.js"></script>
 		<script type="text/javascript" src="/assets/js/plugins.js"></script>
 		<script type="text/javascript" src="/assets/js/main.js"></script>
 		<script type="text/javascript">

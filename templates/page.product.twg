@@ -40,48 +40,213 @@
 			<li><strong>Производитель</strong>: <a href="#">Samsung</a></li>
 			<li><strong>Коллекция</strong>: <a href="#">Белая</a>, <a href="#">Новинка</a>, <a href="#">Лучший выбор</a></li>
 		</ul>
-		<p>
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-			incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-			exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-			irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-			pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-			deserunt mollit anim id est laborum.
-		</p>
-		<table class="table table-bordered" style="margin-top: 22px;">
-			<tbody><tr>
-				<td>
-					Объем барабана
-				</td>
-				<td>
-					5 кг
-				</td>
-			</tr>
-			<tr>
-				<td>
-					Отжим
-				</td>
-				<td>
-					1000 об
-				</td>
-			</tr>
-			<tr>
-				<td>
-					Глубина
-				</td>
-				<td>
-					40 см
-				</td>
-			</tr>
-			<tr>
-				<td>
-					Класс энергопотребления
-				</td>
-				<td>
-					X
-				</td>
-			</tr>
-		</tbody></table>
 	</div>
 </div>
+
+<div class="row item-info-area b-product-info-tab">
+    
+    <ul class="nav nav-tabs" id="myTab">
+        <li class="active"><a href="#home">Характеристики</a></li>
+        <li><a href="#photo">Фото</a></li>
+        <li><a href="#comments">Отзывы</a></li>
+        <li><a href="#delivery">Доставка</a></li>
+    </ul>
+
+    <div class="tab-content">
+        <div class="tab-pane active" id="home">    
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.
+            </p>
+            <table class="table table-bordered" style="margin-top: 22px;">
+                <tbody>
+                    <tr>
+                        <td>
+                            Объем барабана
+                        </td>
+                        <td>
+                            5 кг
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Отжим
+                        </td>
+                        <td>
+                            1000 об
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Глубина
+                        </td>
+                        <td>
+                            40 см
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Класс энергопотребления
+                        </td>
+                        <td>
+                            X
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="tab-pane" id="photo">
+            <ul class="b-product-gallery-list thumbnails">
+                <li class="b-product-gallery-list-little-img">
+                    <a class="thumbnail" href="#"><img alt="" src="http://placehold.it/100x65"></a>
+                </li>
+                <li class="b-product-gallery-list-little-img">
+                    <a class="thumbnail" href="#"><img alt="" src="http://placehold.it/100x65"></a>
+                </li>
+                <li class="b-product-gallery-list-little-img">
+                    <a class="thumbnail" href="#"><img alt="" src="http://placehold.it/100x65"></a>
+                </li>
+                <li class="b-product-gallery-list-little-img">
+                    <a class="thumbnail" href="#"><img alt="" src="http://placehold.it/100x65"></a>
+                </li>
+                <li class="b-product-gallery-list-little-img">
+                    <a class="thumbnail" href="#"><img alt="" src="http://placehold.it/100x65"></a>
+                </li>
+                <li class="b-product-gallery-list-little-img">
+                    <a class="thumbnail" href="#"><img alt="" src="http://placehold.it/100x65"></a>
+                </li>
+            </ul>
+        </div>
+        <div class="tab-pane" id="comments">
+            <h5>Отзывы покупателей о Samsung 105FD</h5>
+            <div class="span7 b-comment">
+                <div class="b-one-comment">
+                    <div class="b-first-comment">
+                        <b class="log-name">Yakutza82</b><span class="b-date-comment">12.10.2015</span>
+                        <p>Приобрела даную модель,всё отлично ,кроме одного не могу понять почему одни фильмы показывает на весь экран ,а другие с полосой по 3-4 см снизу и сверху((((в чём проблема ,подскажите ,может ли это быть из-за HD ,может всётак надо поменять на Full HD.Или что в настройках исправить?</p>
+                    </div>
+                    <a href="#" class="answer">Ответить</a>
+                    <div class="b-answer form-actions">
+                        <div class="control-group">
+                            <label class="control-label" for="textarea2">Ваше сообщение</label>
+                            <div class="controls">
+                                <textarea id="textarea2" class="input-xlarge" rows="3"></textarea>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label" for="input03">Ваше имя</label>
+                            <div class="controls">
+                                <input type="text" class="input-xlarge" id="input03">
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label" for="input03">Ваш е-mail</label>
+                            <div class="controls">
+                                <input type="text" class="input-xlarge" id="input03">
+                            </div>
+                        </div>
+                        <a class="simpleCart_checkout btn btn-primary">Отправить</a>
+                        <a class="answer-close btn">Отменить</a>
+                    </div>
+                    <div class="h-after-b-answer"></div>
+                    <div class="b-next-comment">
+                        <b class="log-name">Yakutza82</b><span class="b-date-comment">12.10.2015</span>
+                        <p>Приобрела даную модель,всё отлично ,кроме одного не могу понять почему одни фильмы показывает на весь экран ,а другие с полосой по 3-4 см снизу и сверху((((в чём проблема ,подскажите ,может ли это быть из-за HD ,может всётак надо поменять на Full HD.Или что в настройках исправить?</p>
+                    </div>
+                    <div class="b-next-comment">
+                        <b class="log-name">Yakutza82</b><span class="b-date-comment">12.10.2015</span>
+                        <p>Приобрела даную модель,всё отлично ,кроме одного не могу понять почему одни фильмы показывает на весь экран ,а другие с полосой по 3-4 см снизу и сверху((((в чём проблема ,подскажите ,может ли это быть из-за HD ,может всётак надо поменять на Full HD.Или что в настройках исправить?</p>
+                    </div>
+                </div>
+                <div class="b-one-comment">
+                    <div class="b-first-comment">
+                        <b class="log-name">Yakutza82</b><span class="b-date-comment">12.10.2015</span>
+                        <p>Приобрела даную модель,всё отлично ,кроме одного не могу понять почему одни фильмы показывает на весь экран ,а другие с полосой по 3-4 см снизу и сверху((((в чём проблема ,подскажите ,может ли это быть из-за HD ,может всётак надо поменять на Full HD.Или что в настройках исправить?</p>
+                    </div>
+                    <a href="#" class="answer">Ответить</a>
+                    <div class="b-answer form-actions">
+                        <div class="control-group">
+                            <label class="control-label" for="textarea2">Ваше сообщение</label>
+                            <div class="controls">
+                                <textarea id="textarea2" class="input-xlarge" rows="3"></textarea>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label" for="input03">Ваше имя</label>
+                            <div class="controls">
+                                <input type="text" class="input-xlarge" id="input03">
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label" for="input03">Ваш е-mail</label>
+                            <div class="controls">
+                                <input type="text" class="input-xlarge" id="input03">
+                            </div>
+                        </div>
+                        <a class="simpleCart_checkout btn btn-primary">Отправить</a>
+                        <a class="answer-close btn">Отменить</a>
+                    </div>
+                    <div class="h-after-b-answer"></div>
+                    <div class="b-next-comment">
+                        <b class="log-name">Yakutza82</b><span class="b-date-comment">12.10.2015</span>
+                        <p>Приобрела даную модель,всё отлично ,кроме одного не могу понять почему одни фильмы показывает на весь экран ,а другие с полосой по 3-4 см снизу и сверху((((в чём проблема ,подскажите ,может ли это быть из-за HD ,может всётак надо поменять на Full HD.Или что в настройках исправить?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="span5 pull-right b-comment-write">
+                <h5>Оставьте комментарий</h5>
+                <div class="b-answer form-actions">
+                    <div class="control-group">
+                        <label class="control-label" for="input03">Ваше имя</label>
+                        <div class="controls">
+                            <input type="text" class="input-xlarge" id="input03">
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label" for="input03">Ваш е-mail</label>
+                        <div class="controls">
+                            <input type="text" class="input-xlarge" id="input03">
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label" for="textarea2">Ваш комментарий</label>
+                        <div class="controls">
+                            <textarea id="textarea2" class="input-xlarge" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <a class="simpleCart_checkout btn btn-primary">Оставить комментарий</a>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane" id="delivery">
+            <h5>Оформление заказа</h5>
+            <p>Обращаем Ваше внимание: на покупателей нашего магазина распространяются все права предусмотренные в Законе "О защите прав потребителя".</p>
+            <p>Вы можете оформить заказ двумя способами.<br/>
+            а) с помощью "Корзины" непосредственно в магазине (способ описан ниже)<br/>
+            б) по телефону.<br/>
+            Заказ с помощью "Корзины" позволяет Вам полностью контролировать процесс. Введя Ваш e-mail и пароль, который Вы выбрали при регистрации Вы получите доступ к состоянию Вашего заказа. Вы сможете контролировать получение нами оплаты, отправку заказа к Вам, дату получения заказа, историю всех предыдущих заказов.</p>
+        </div>
+    </div>
+
+    <script>
+        $('#myTab a').click(function (e) {
+            e.preventDefault();
+            $(this).tab('show');
+        })
+        $('a.answer').click(function() {
+            $('.b-answer').css('display','block');
+            return false;
+        })
+        $('a.answer-close').click(function() {
+            $('.b-answer').css('display','none');
+            return false;
+        })
+    </script>
+
+</div>
 {% endblock content %}
+
