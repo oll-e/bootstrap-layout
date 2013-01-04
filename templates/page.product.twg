@@ -123,7 +123,7 @@
         </div>
         <div class="tab-pane" id="comments">
             <h5>Отзывы покупателей о Samsung 105FD</h5>
-            <div class="span7 b-comment">
+            <div class="span7 b-comment" style="margin-left: 0;">
                 <div class="b-one-comment">
                     <div class="b-first-comment">
                         <b class="log-name">Yakutza82</b><span class="b-date-comment">12.10.2015</span>

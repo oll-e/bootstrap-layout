@@ -13,7 +13,6 @@
             +380 123 45 67
         </div>
     </div>
-
 </div>
             
 <div class="navbar"><!--navbar-fixed-top-->
@@ -53,7 +52,7 @@
                         <li><a href="/index.php?file=page.products.twg">Product</a></li>
 						<li><a href="/index.php?file=page.gallery.twg">Gallery</a></li>
                         <li><a href="/index.php?file=page.cart.twg">Cart</a></li>
-                        <li><a href="/index.php?file=page.faq.twg">FAQ</a></li>
+                        <li><a href="/index.php?file=page.review.twg">Отзывы</a></li>
                         <li><a href="/index.php?file=page.newsitem.twg">Article</a></li>
                         <li class="divider"></li>
                         <li><a href="/index.php?file=page.404.twg">404 Page not found</a></li>

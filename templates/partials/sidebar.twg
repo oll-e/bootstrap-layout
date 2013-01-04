@@ -82,3 +82,54 @@
     </div>
 </div>
 
+<h3>Новости</h3>
+<div class="accordion" id="accordion2">
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+        <h4>Новая коллекция</h4>
+      </a>
+    </div>
+    <div id="collapseOne" class="accordion-body collapse in">
+      <div class="accordion-inner">
+        <p>
+            Donec dictum augue imperdiet erat feugiat vitae hendrerit erat eleifend. Quisque
+            fringilla, lacus et ullamcorper laoreet, lorem metus eleifend arcu, eu placerat
+            felis dolor et risus.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+        <h4>Снижение цен</h4>
+      </a>
+    </div>
+    <div id="collapseTwo" class="accordion-body collapse">
+      <div class="accordion-inner">
+        <p>
+            Donec dictum augue imperdiet erat feugiat vitae hendrerit erat eleifend. Quisque
+            fringilla, lacus et ullamcorper laoreet, lorem metus eleifend arcu, eu placerat
+            felis dolor et risus.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThre">
+        <h4>Акция!!!</h4>
+      </a>
+    </div>
+    <div id="collapseThre" class="accordion-body collapse">
+      <div class="accordion-inner">
+        <p>
+            Donec dictum augue imperdiet erat feugiat vitae hendrerit erat eleifend. Quisque
+            fringilla, lacus et ullamcorper laoreet, lorem metus eleifend arcu, eu placerat
+            felis dolor et risus.
+        </p>
+      </div>
+    </div>
+  </div>
+  </div>

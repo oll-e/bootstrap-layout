@@ -842,6 +842,18 @@ blockquote p {
   font-weight: 300;
   line-height: 25px;
 }
+blockquote.b-answer-autor {
+    border-left: 5px solid #EEEEEE;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+blockquote.b-answer-autor:before {
+  content: '';
+}
+
+blockquote.b-answer-autor:after {
+  content: '';
+}
 
 blockquote small {
   display: block;
@@ -1215,7 +1227,7 @@ textarea::-webkit-input-placeholder {
 }
 
 .input-xlarge {
-  width: 235px;
+  width: 100%;
 }
 
 .input-xxlarge {
@@ -5943,7 +5955,7 @@ a.badge:hover {
 .b-product-info-tab {
     margin-left: 20px;
 }
-.b-comment {
+.b-comment, .span7.b-comment {
     margin-left: 0;
 }
 .b-one-comment {
