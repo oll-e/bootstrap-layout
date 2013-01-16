@@ -158,38 +158,6 @@ textarea {
           box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 20px;
-  color: #333333;
-  background-color: #ffffff;
-}
-
-a {
-  color: #0088cc;
-  text-decoration: none;
-}
-.a-black {
-  color: #000000;
-  text-decoration: underline;
-}
-.a-black:hover, .a-black.active  {
-  color: ##104889;
-}
-.a-darkblue {
-  color: #104889;
-}
-.a-darkblue:hover, .a-darkblue.active {
-  color: #1461BA;
-}
-
-a:hover {
-  color: #005580;
-  text-decoration: underline;
-}
-
 .img-rounded {
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;

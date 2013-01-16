@@ -1,0 +1,37 @@
+{% extends 'master.page.twg' %}
+
+{% block content %}
+
+
+<h3>Fancybox Gallery</h3>
+
+<div class="b-fancybox ">
+    <h4>One img</h4>
+    <a class="gallery" title="Description 1" href="assets/img/gallery/large/3.jpg"><img src="assets/img/gallery/medium/3.jpg" /></a>
+    <div class="clearfix"></div>
+    
+    <h4>Gallery</h4>
+    <ul class="unstyled ">
+        <li><a class="gallery" rel="group" title="Description 1" href="assets/img/gallery/large/3.jpg"><img src="assets/img/gallery/medium/3.jpg" /></a></li>
+        <li><a class="gallery" rel="group" title="Description 2" href="assets/img/gallery/large/3.jpg"><img src="assets/img/gallery/medium/3.jpg" /></a></li>
+        <li><a class="gallery" rel="group" title="Description 3" href="assets/img/gallery/large/3.jpg"><img src="assets/img/gallery/medium/3.jpg" /></a></li>
+        <li><a class="gallery" rel="group" title="Description 4" href="assets/img/gallery/large/3.jpg"><img src="assets/img/gallery/medium/3.jpg" /></a></li>
+        <li><a class="gallery" rel="group" title="Description 5" href="assets/img/gallery/large/3.jpg"><img src="assets/img/gallery/medium/3.jpg" /></a></li>
+    </ul>
+    <div class="clearfix"></div>
+    
+    <h4>Some info in modal block</h4>  
+    <a class="gallery" href="#modal-block">Link</a>
+    <div style="display:none" id="modal-block">
+        <p>Donec dictum augue imperdiet erat feugiat vitae hendrerit erat eleifend. Quisque fringilla, lacus et ullamcorper laoreet, lorem metus eleifend arcu, eu placerat felis dolor et risus. </p>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+<script type="text/javascript">		
+    $(function() {
+        $("a.gallery").fancybox();
+    });
+</script>	
+
+{% endblock content %}

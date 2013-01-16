@@ -1,8 +1,0 @@
-figure.b-with-contact-map {
-    padding-top: 23.05%;
-    background-image: url("../img/map.jpg");
-    margin-left: 30px;
-    background-size: cover;
-    -moz-background-size: cover;  /* Firefox 3.6 */
-    background-position: center;  /* Internet Explorer 7/8 */
-}

@@ -1,6 +1,7 @@
 <div class="row common-header">
-    <div class="span4 logo">
-        <a href="#"><img src="http://equalteam.net/images/logo.png" style="height: 50px;"></a>
+    <div class="span4 b-logo">
+        <a href="#"><img src="http://placehold.it/150x150"></a>
+        <a href="#">Logo</a>
     </div>
     
     <div class="span6 pull-right">
@@ -50,7 +51,8 @@
                         <li><a href="/index.php?file=page.default.twg">Typography</a></li>
                         <li><a href="/index.php?file=page.procategory.twg">Products Category</a></li>
                         <li><a href="/index.php?file=page.products.twg">Product</a></li>
-						<li><a href="/index.php?file=page.gallery.twg">Gallery</a></li>
+						<li><a href="/index.php?file=page.gammagallery.twg">Gamma-Gallery</a></li>
+						<li><a href="/index.php?file=page.fancybox.twg">Fancybox</a></li>
                         <li><a href="/index.php?file=page.cart.twg">Cart</a></li>
                         <li><a href="/index.php?file=page.review.twg">Отзывы</a></li>
                         <li><a href="/index.php?file=page.newsitem.twg">Article</a></li>

@@ -1,6 +1,72 @@
 @import 'fonts.less';
 
-// Typography
+/*body*/
+
+body {
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: #333333;
+    background-color: #ffffff;
+}
+
+a {
+    color: #0088cc;
+    text-decoration: none;
+    &:hover {
+        color: #005580;
+        text-decoration: underline;
+    }
+    &.a-black {
+        color: #000000;
+        text-decoration: underline;
+    }
+    &.a-black:hover, &.a-black.active  {
+        color: #104889;
+    }
+    &.a-darkblue {
+        color: #104889;
+    }
+    &.a-darkblue:hover, &.a-darkblue.active {
+        color: #1461BA;
+    }
+}
+
+/*body*/
+
+
+/*header*/
+
+.b-logo {
+    a {
+        font-size: 20px;
+        img {
+            width: 70px;
+        }
+    }
+}
+
+/*header*/
+
+/**/
+
+.b-newsitem {
+    p {
+        img {
+            float: left;
+            margin: 10px 20px 20px 0;
+        }
+    }
+}
+
+/**/
+
+
+/* Typography */
+.b-important {
+    color: red;
+}
 ins {
 	color: #859900;
 
@@ -62,9 +128,40 @@ blockquote:after,
 q:after {
   content: '\00BB';
 }
-// End typography
+/* End typography */
 
 
+
+/*b-fancybox*/
+
+.b-fancybox {
+    a {
+        img {
+            width: 200px;
+            margin: 0 10px 10px 0;
+        }
+    }
+    ul {
+        li {
+            display: inline-block;
+            margin: 0 10px 10px 0;
+            vertical-align: top;
+            a {
+                img {
+                    width: 150px;
+                }
+            }
+        }
+    }
+}
+
+/*b-fancybox*/
+
+
+
+
+
+/*pagination*/
 
 .pagination .dropdown {
 	&.open {
@@ -94,6 +191,10 @@ q:after {
 		}
 	}
 }
+
+/*pagination*/
+
+
 
 .item-list-area {
 	position: relative;
@@ -166,3 +267,22 @@ q:after {
 .right-aligned {
 	text-align: right;
 }
+
+/*b-cotnact-info*/
+
+.b-cotnact-info {
+    
+}
+
+/*b-cotnact-info*/
+
+/*b-map*/
+figure.b-with-contact-map {
+    padding-top: 23.05%;
+    background-image: url("../assets/img/map.jpg");
+    margin-left: 30px;
+    background-size: cover;
+    -moz-background-size: cover;  /* Firefox 3.6 */
+    background-position: center;  /* Internet Explorer 7/8 */
+}
+/*b-map*/
