@@ -5,7 +5,7 @@
     <span class="icon-bar"></span>
 </a><!--if < menu-->
 <div class="clearfix"></div>
-<div class="b-main-menu">
+<div class="b-main-menu nav-collapse">
     <ul class="unstyled">
         <li><a href="/index.php?file=page.products.twg">Стиральные машины</a></li>
         <li><a href="/index.php?file=page.products.twg">Холодильники</a></li>
@@ -33,7 +33,7 @@
     <span class="icon-bar"></span>
 </a><!--if < menu-->
 <div class="clearfix"></div>
-<div class="b-maker">
+<div class="b-maker nav-collapse">
     <ul class="unstyled">
         <li><a href="/index.php?file=page.search.twg">ABBYY</a></li>
         <li><a href="/index.php?file=page.search.twg">Microsoft</a></li>
@@ -52,7 +52,7 @@
     <span class="icon-bar"></span>
 </a><!--if < menu-->
 <div class="clearfix"></div>
-<div class="b-news">
+<div class="b-news nav-collapse">
     <div class="short-news">
         <h4>Новая коллекция</h4>
         <p>

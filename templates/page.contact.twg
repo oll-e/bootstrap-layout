@@ -1,0 +1,13 @@
+{% extends 'master.page.twg' %}
+
+{% block content %}
+
+<h2>Контакты</h2>
+
+<div class="b-with-contact-map"></div>
+
+<hr>
+<address>Калининградская обл., г. Черняховск, ул. 22 Января, тег <code>&lt;address&gt;</code></address>
+<pre>Пример форматированного текста, тег &lt;pre&gt;...&lt;/pre&gt;</pre>
+
+{% endblock content %}
